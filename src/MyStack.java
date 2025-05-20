@@ -16,7 +16,6 @@ public class MyStack<T> {
         if (list.size() == 0) throw new IllegalStateException("Stack is empty");
         return list.getLast();
     }
-
     public boolean isEmpty() {
         return list.size() == 0;
     }
